@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   const pathname = usePathname()
@@ -16,7 +17,12 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed top-0 w-full z-[1050] bg-[#000000ea] bg-black">
+    <motion.div
+      initial={{ y: -80, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6 }}
+      className="fixed top-0 w-full z-[1050] bg-[#000000ea] bg-black"
+    >
       <nav className="max-w-7xl w-full mx-auto px-0 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
@@ -53,7 +59,7 @@ const Navbar = () => {
           </Link>
         </div>
       </nav>
-    </div>
+    </motion.div>
   )
 }
 
