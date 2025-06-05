@@ -85,8 +85,8 @@ export default function AboutPage() {
                 src="/profile.jpg"
                 alt="Aryan Kharva"
                 width={320}
-                height={380}
-                className="rounded-xl shadow-md object-cover max-w-[300px] aspect-[4/5] h-[410px]"
+                height={385}
+                className="rounded-xl shadow-md object-cover max-w-[300px] aspect-[4/5] h-[418px]"
               />
             </motion.div>
 
