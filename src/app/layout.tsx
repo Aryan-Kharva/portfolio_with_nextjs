@@ -1,4 +1,3 @@
-// app/layout.tsx
 import './globals.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -16,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="w-full overflow-x-hidden">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex, nofollow" />
       </head>
       <body className={`${inter.className} w-full overflow-x-hidden`}>
         {children}
