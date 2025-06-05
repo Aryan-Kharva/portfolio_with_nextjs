@@ -86,7 +86,8 @@ export default function AboutPage() {
                 alt="Aryan Kharva"
                 width={320}
                 height={385}
-                className="rounded-xl shadow-md object-cover max-w-[300px] aspect-[4/5] h-[418px]"
+                className="rounded-xl shadow-md object-cover w-[280px] h-[370px] md:w-[320px] md:h-[418px]"
+
               />
             </motion.div>
 
