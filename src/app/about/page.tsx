@@ -85,8 +85,8 @@ export default function AboutPage() {
                 src="/profile.jpg"
                 alt="Aryan Kharva"
                 width={320}
-                height={385}
-                className="rounded-xl shadow-md object-cover w-[280px] h-[370px] md:w-[320px] md:h-[418px]"
+                height={440}
+                className="rounded-xl shadow-md object-cover w-[300px] h-[440px] md:w-[320px] md:h-[418px]"
 
               />
             </motion.div>
@@ -95,7 +95,8 @@ export default function AboutPage() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-left w-full max-w-[493px] flex flex-col justify-between max-h-[418px] overflow-hidden text-[15.5px] leading-[1.55rem]"
+              className="text-left w-full max-w-[499px] flex flex-col justify-between text-[15.5px] leading-[1.65rem]"
+
             >
               <h1 className="text-4xl font-bold mb-4">About Me</h1>
               <p className="mb-2">
