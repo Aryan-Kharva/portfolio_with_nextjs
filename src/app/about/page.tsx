@@ -105,7 +105,7 @@ export default function AboutPage() {
               <p className="mb-2">
                 {"I'm currently doing undergraduate research working on a RAG model using Llama 2 and OpenAI APIs. I’m a three-time Chancellor’s List recipient (Spring 2024, Fall 2024, and Spring 2025) and constantly looking for ways to grow as a developer and a person."}
               </p>
-              {/* Resume Visibility */}
+
               {/* <p className="mt-2">
                 🔗{" "}
                 <a
