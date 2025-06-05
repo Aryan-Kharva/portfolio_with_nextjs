@@ -1,20 +1,20 @@
-'use client'
-import Link from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
-import { motion } from 'framer-motion'
+"use client";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const pathname = usePathname()
-  const router = useRouter()
+  const pathname = usePathname();
+  const router = useRouter();
 
   const handleScroll = (id: string) => {
-    if (pathname !== '/') {
-      router.push('/#' + id)
+    if (pathname !== "/") {
+      router.push("/#" + id);
     } else {
-      const el = document.getElementById(id)
-      if (el) el.scrollIntoView({ behavior: 'smooth' })
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
     <motion.div
@@ -34,19 +34,19 @@ const Navbar = () => {
 
         <div className="space-x-6 hidden md:flex">
           <button
-            onClick={() => router.push('/')}
+            onClick={() => router.push("/")}
             className="text-[#d4d4d4] text-[1.2rem] hover:text-[#f0f0f0] transition-colors duration-200"
           >
             Home
           </button>
           <button
-            onClick={() => handleScroll('projects')}
+            onClick={() => handleScroll("projects")}
             className="text-[#d4d4d4] text-[1.2rem] hover:text-[#f0f0f0] transition-colors duration-200"
           >
             Projects
           </button>
           <button
-            onClick={() => handleScroll('contact-me')}
+            onClick={() => handleScroll("contact-me")}
             className="text-[#d4d4d4] text-[1.2rem] hover:text-[#f0f0f0] transition-colors duration-200"
           >
             Contact
@@ -60,7 +60,7 @@ const Navbar = () => {
         </div>
       </nav>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

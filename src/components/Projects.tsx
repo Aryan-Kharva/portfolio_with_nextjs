@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { projectsData } from '@/data/projects'
 
 const Projects = () => {
-  // Animation variant for sliding cards from left or right
+  // animation variant for sliding cards from left or right
   const cardVariants = {
     hidden: (i: number) => ({
       opacity: 0,

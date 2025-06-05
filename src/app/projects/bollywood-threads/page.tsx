@@ -124,7 +124,7 @@ const BollywoodThreads = () => {
                 />
               </div>
               <div className="grid grid-cols-2 gap-5">
-                {/* Flyer 1 - Slide Down */}
+
                 <motion.img
                   initial={{ y: -40, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
@@ -136,7 +136,7 @@ const BollywoodThreads = () => {
                   className="rounded-lg shadow-md w-full aspect-square object-cover transition-transform duration-300"
                 />
 
-                {/* Flyer 3 - Slide Left */}
+
                 <motion.img
                   initial={{ x: 40, opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
@@ -148,7 +148,7 @@ const BollywoodThreads = () => {
                   className="rounded-lg shadow-md w-full aspect-square object-cover transition-transform duration-300"
                 />
 
-                {/* Flyer 2 - Slide Up */}
+
                 <motion.img
                   initial={{ x: -40, opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
@@ -160,7 +160,7 @@ const BollywoodThreads = () => {
                   className="rounded-lg shadow-md w-full aspect-square object-cover transition-transform duration-300"
                 />
 
-                {/* Flyer 4 - Slide Right */}
+
                 <motion.img
                   initial={{ y: 40, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
