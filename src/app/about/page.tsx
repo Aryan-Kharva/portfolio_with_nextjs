@@ -93,7 +93,7 @@ export default function AboutPage() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-left w-full max-w-[550px] h-[380px] flex flex-col justify-between"
+              className="text-left w-full max-w-[550px] flex flex-col justify-between"
             >
               <h1 className="text-4xl font-bold mb-4">About Me</h1>
               <p className="mb-2">
